@@ -92,6 +92,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		scroll-behavior: smooth;
 	}
 
 	*, *:before, *:after {
@@ -3426,17 +3427,17 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
 			content: '';
-			display: block;
+			display: inline-block;
 			height: 0%;
 			left: 0;
-			position: absolute;
+			position: center;
 			top: 0;
 			width: 0%;
 		}
 
 		#intro .logo img {
 			display: block;
-			margin-left: -0.25em;
+			margin-left: -0.5em;
 			width: 12.5em;
 		}
 
